@@ -11,3 +11,6 @@ fi
 cmake -S . -B build
 cmake --build build --parallel
 
+
+echo -e "Installing Livox-SDK2"
+sudo cmake --build build --target install
